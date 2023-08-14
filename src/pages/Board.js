@@ -1,8 +1,12 @@
+import Header from "../components/Header";
 
 
 const Board = () => {
   return(
-    <div>게시판</div>
+    <div>게시판
+      <Header/>
+    </div>
+    
   )
 }
 

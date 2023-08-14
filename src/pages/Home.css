@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Bricolage+Grotesque:opsz,wght@10..48,800&family=Dancing+Script:wght@700&family=Great+Vibes&family=Noto+Sans+KR:wght@500&display=swap');
+
+.new-products > h4 {
+  font-family: 'Bagel Fat One', cursive;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}

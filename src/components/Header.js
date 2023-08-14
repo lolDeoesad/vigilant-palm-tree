@@ -10,9 +10,9 @@ const Header = () => {
     <>
       <Navbar bg="light" data-bs-theme="light" className='navbar'>
         <Container>
-        <img src='/magic.png' height='30px'/>
+          <img src='/magic.png' height='30px' />
           <Navbar.Brand href="#home" className='font'>Magic Life</Navbar.Brand>
-          <div className='box grow'></div>    
+          <div style={{ flexGrow: 1 }}></div>
           <div className='flex'></div>
           <Nav className="me-auto">
             <Nav.Link onClick={() => { navigate('/') }}>Home</Nav.Link>
@@ -26,36 +26,46 @@ const Header = () => {
 
       <div className='container'>
         <div className='header flex'>
-          <div className='logo font'>Magic Life</div>
+          {/* <div className='arrange'> */}
+            <div className='logo font'><span style={{
+              color: 'orange'
+            }}>Magic</span> Life
+              <p>당신의 인생과 함께하는 매직 라이프 입니다.</p>
+            </div>
+          {/* </div> */}
           <div className='search'>
-           <form className=''>
-            <input className='input' type='text' placeholder='검색어 입력'/>
-            <input  className='icon' type='image' src='/search_btn.png'/>
-             {/* <span className='icon-box'>
+            <form className=''>
+              <input className='input' type='text' placeholder='검색어 입력' />
+              <input className='icon' type='image' src='/search_btn.png' />
+              {/* <span className='icon-box'>
              <FontAwesomeIcon icon={faMagnifyingGlass} className='icon'/>
              </span> */}
-             </form>
-              <ul className='search-box'>
-                <li className='hot'>인기검색어</li>
-                <li>노바덱</li>
-                <li>무빙넘버</li>
-                <li>바이시클</li>
-                <li>스타게이저</li>
-              </ul>
+            </form>
+            <ul className='search-box'>
+              <li className='hot'>인기검색어</li>
+              <li>노바덱</li>
+              <li>판타지덱</li>
+              <li>바이시클</li>
+              <li>스타게이저</li>
+            </ul>
           </div>
-          <div className='a'>광고</div>
-        </div>
-
-        <div className='header-box'>
-          <ul className='header-link'>
-            <li onClick={() => {navigate('/inform')}}>공지사항</li>
-            <li onClick={() => {navigate('/guide')}}>이용안내</li>
-            <li onClick={() => {navigate('/card')}}>마술카드</li>
-            <li onClick={() => {navigate('/Tools')}}>마술도구</li>
-            <li><a href='' className='learn'>마술배우기 강좌</a></li>
-          </ul>
+          <div className='ad'>
+            <img src='fantasy.jpg' height='120px' style={{
+              marginLeft: 100
+            }} />
+          </div>
         </div>
       </div>
+      <div className='header-box'>
+        <ul className='header-link'>
+          <li onClick={() => { navigate('/inform') }}>공지사항</li>
+          <li onClick={() => { navigate('/guide') }}>이용안내</li>
+          <li onClick={() => { navigate('/card') }}>마술카드</li>
+          <li onClick={() => { navigate('/Tools') }}>마술도구</li>
+          <li><a href='' className='learn'>마술배우기 강좌</a></li>
+        </ul>
+      </div>
+
     </>
 
 
