@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&display=swap');
+
+.flex {
+  display: flex;
+}
+
+.navbar {
+  height: 30px;
+  position: fixed;
+  width: 100%;
+}
+
+.font {
+  font-family: 'Dancing Script', cursive;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.header {
+  height: 150px;
+  width: 100%;
+  background-color: white;
+  padding-top: 30px;
+}
+
+.logo {
+  height: 120px;
+  width: 33%;
+  font-size: 50px;
+}
+
+.search {
+  height: 120px;
+  width: 34%;
+  background-color: white;
+
+}
+
+.input {
+  margin-top: 25px;
+  width: 210px;
+  height: 30px;
+  border: 1px solid #fabe2d;;
+ 
+}
+
+.input:focus {
+  border-color: #fabe2d;
+  background-color: gainsboro;
+  outline: none;
+}
+
+.icon {
+  height: 30px;
+  width: 37px;
+  background-color: #fabe2d;
+  color: white;
+  position: absolute;  /*부모요소 기준으로 위치 조정하기 */
+  margin-top: 25px;
+
+}
+
+.search-box{
+  margin-right: 20px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.search-box > li {
+  display: inline-block;
+  font-size: 1px;
+  margin-left: 10px;
+}
+
+.hot {
+ background-color: black;
+ color: white;
+ padding: 3px;
+ border-radius: 10%;
+}
+
+.a {
+  height: 120px;
+  width: 33%;
+  background-color: chartreuse;
+}
+
+.header-box {
+  height: 40px;
+  width: 100%;
+  background-color: skyblue;
+  color: white;
+  cursor: pointer;
+}
+
+.header-link {
+  text-align: center;
+  list-style-type: none;
+}
+
+.header-link > li {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 14px;
+}
+
+.learn {
+ text-decoration: none;
+ color: yellow
+}
+
+
+
+
