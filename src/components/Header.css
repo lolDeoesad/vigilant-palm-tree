@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Bricolage+Grotesque:opsz,wght@10..48,800&family=Dancing+Script:wght@700&family=Great+Vibes&family=Nanum+Gothic&family=Noto+Sans+KR:wght@500&display=swap');
 .flex {
   display: flex;
 }
@@ -21,6 +21,7 @@
 
 
 .header {
+  margin: auto;
   height: 150px;
   width: 1000px;
   background-color: white;
@@ -35,6 +36,7 @@
 }
 
 .logo > p {
+  font-family: 'Nanum Gothic', sans-serif;
   height: 120px;
   font-family: '';
   font-size: 10px;
@@ -48,7 +50,7 @@
 
 }
 
-.input {
+.header-input {
   margin-top: 25px;
   margin-left: 65px;
   width: 210px;
@@ -57,7 +59,7 @@
  
 }
 
-.input:focus {
+.header-input:focus {
   border-color: #fabe2d;
   background-color: gainsboro;
   outline: none;
@@ -107,6 +109,10 @@
   cursor: pointer;
 }
 
+.class {
+  margin: auto;
+}
+
 .header-link {
   text-align: center;
   list-style-type: none;
@@ -123,7 +129,3 @@
  text-decoration: none;
  color: yellow
 }
-
-
-
-

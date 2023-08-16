@@ -27,15 +27,14 @@ const Header = () => {
       <div className='container'>
         <div className='header flex'>
           {/* <div className='arrange'> */}
-            <div className='logo font'><span style={{
-              color: 'orange'
-            }}>Magic</span> Life
+          <div className='logo font'><span style={{
+            color: 'orange'
+          }}>Magic</span> Life
               <p>당신의 인생과 함께하는 매직 라이프 입니다.</p>
-            </div>
-          {/* </div> */}
+             </div>
           <div className='search'>
             <form className=''>
-              <input className='input' type='text' placeholder='검색어 입력' />
+              <input className='header-input' type='text' placeholder='검색어 입력' />
               <input className='icon' type='image' src='/search_btn.png' />
               {/* <span className='icon-box'>
              <FontAwesomeIcon icon={faMagnifyingGlass} className='icon'/>

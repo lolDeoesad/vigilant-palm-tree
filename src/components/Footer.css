@@ -1,0 +1,14 @@
+.terms-ct {
+  /* margin-top: 200px; */
+}
+
+.terms-bottom {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+}
+
+.terms-box {
+  width: 300px;
+  height: 100px;
+}

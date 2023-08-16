@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Bricolage+Grotesque:opsz,wght@10..48,800&family=Dancing+Script:wght@700&family=Great+Vibes&family=Noto+Sans+KR:wght@500&display=swap');
+
+::placeholder{
+  font-size: 12px;
+}
+
+
+.sing-up{
+ height: 1000px;
+}
+
+.frame{
+  border: 1px solid #d6d6d6;;
+  margin-left: 15px;
+}
+
+h2{
+  font-family: 'Bagel Fat One', cursive;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  width: 1000px;
+  height: 70px;
+  text-align: left;
+  margin-left: 300px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+
+.info{
+  padding-top: 80px;
+  padding-bottom: 10px;
+  margin: auto;
+  margin-bottom: auto;
+  width: 550px;
+  border-bottom: 1px solid gray;
+}
+
+.sing-table {
+  margin: auto;
+}
+
+.sing-th{
+  width: 180px;
+  height: 55px;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #dee2e6;
+  background-color: #fbfbfb;
+}
+
+.sing-span {
+  font-size: 11px;
+}
+
+.sing-td {
+  width: 371px;
+  height: 60px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.address {
+  height: 130px;
+}
+
+.sing-input:focus, .sing-input-pw, .sing-input-email, .sing-input-phone{
+  border: 1px solid #d6d6d6;
+  outline: none;
+}
+
+.sing-input{
+  width: 320px;
+  height: 27px;
+}
+
+.sing-input-pw{
+  width: 150px;
+  height: 27px;
+}
+
+.sing-input-email{
+  width: 220px;
+  height: 27px;
+}
+
+.sing-input-phone{
+  width: 220px;
+  height: 27px;
+}
+
+.sing-input-post {
+  width: 150px;
+  height: 27px;
+  margin-bottom: 10px;
+}
+
+.left{
+  margin-left: 15px;
+}
+
+.agree {
+  padding: 3px;
+  font-size: 10px;
+  color: #333;
+}
+
+.post-num{
+  margin-left: 5px;
+  padding: 4px;
+  text-align: center;
+  border: 1px solid black;
+  font-size: 5px;
+  background-color: white;
+}
+
+.sing-btn{
+  display: inline-block;
+  margin-left: 350px;
+}
+
+.btn-cancel{
+  width: 120px;
+  height: 35px;
+  border: 1px solid black;
+  font-size: 12px;
+}
+
+.btn-join {
+  width: 120px;
+  height: 35px;
+  margin-left: 10px;
+  color: white;
+  border: 1px solid #ab3e55;
+  background-color: #ab3e55;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+
