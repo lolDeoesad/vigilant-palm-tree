@@ -23,15 +23,18 @@ const Header = () => {
           </Nav>
         </Container>
       </Navbar>
-
+      
       <div className='container'>
         <div className='header flex'>
           {/* <div className='arrange'> */}
-          <div className='logo font'><span style={{
-            color: 'orange'
-          }}>Magic</span> Life
-              <p>당신의 인생과 함께하는 매직 라이프 입니다.</p>
-             </div>
+          <div className='logo font'>
+
+            <div className='blance'>
+              <span style={{
+                color: 'orange'  
+              }}>Magic</span> Life </div>
+            <p>당신의 인생과 함께하는 매직 라이프 입니다.</p>
+          </div>
           <div className='search'>
             <form className=''>
               <input className='header-input' type='text' placeholder='검색어 입력' />
@@ -48,10 +51,8 @@ const Header = () => {
               <li>스타게이저</li>
             </ul>
           </div>
-          <div className='ad'>
-            <img src='fantasy.jpg' height='120px' style={{
-              marginLeft: 100
-            }} />
+          <div className='fantasy'>
+            <img src='fantasy.jpg' height='130px' />
           </div>
         </div>
       </div>
@@ -61,7 +62,7 @@ const Header = () => {
           <li onClick={() => { navigate('/guide') }}>이용안내</li>
           <li onClick={() => { navigate('/card') }}>마술카드</li>
           <li onClick={() => { navigate('/Tools') }}>마술도구</li>
-          <li><a href='' className='learn'>마술배우기 강좌</a></li>
+          <li><a href='https://www.youtube.com/@tobettermagic' className='learn'>마술배우기 강좌</a></li>
         </ul>
       </div>
 

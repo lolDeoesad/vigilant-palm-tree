@@ -1,10 +1,9 @@
-import Footer from './Footer';
 import './SingUp.css'
 
 const SingUp = () => {
   return (
     <div className='sing-up'>
-      <h2>회원가입</h2>
+      <h2 className='sing-h2'>회원가입</h2>
       <form>
         <div className='auto'>
           <p className='info'>기본정보</p>
@@ -117,12 +116,10 @@ const SingUp = () => {
               </td>
             </tr>
           </table>
-          <div className='class'>
-
           <div className='sing-btn'>
-            <button type='button' className='btn-cancel btn'>취소</button>
-            <button type='button' className='btn-join btn'>회원가입</button>
-          </div>
+            <button type='button' className='btn-cancel btn-black'>취소</button>
+            <span style={{margin:5}}/>
+            <button type='button' className='btn-join btn-white'>회원가입</button>
           </div>
         </div>
       </form>

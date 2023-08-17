@@ -1,6 +1,3 @@
-.terms-ct {
-  /* margin-top: 200px; */
-}
 
 .terms-bottom {
   width: 1200px;
@@ -9,6 +6,29 @@
 }
 
 .terms-box {
+  margin: auto;
+  text-align: center;
   width: 300px;
-  height: 100px;
+  height: 130px;
+}
+
+.text-margin {
+  margin: 20px;
+}
+
+.service-center{
+  font-weight: 1000;
+  color: #F1AF14
+}
+
+.terms-footer {
+  width: 1200px;
+  height: 200px;
+  padding-top: 10px;
+  margin: auto;
+}
+
+.terms-footer-font{
+  color: gray;
+  font-size: 13px;
 }

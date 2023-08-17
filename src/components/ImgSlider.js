@@ -27,15 +27,15 @@ function ImgSlider() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
-          alt="Third slide"
+          src="/tenyo_pc.jpg"
+          alt="Fourth slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
-          alt="Third slide"
+          src="/coin.jpg"
+          alt="Fifth slide"
         />
       </Carousel.Item>
     </Carousel>

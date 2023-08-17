@@ -1,10 +1,12 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import LogOn from "../components/LogOn";
 
 const Login = () => {
   return(
-    <div>로그인
+    <div>
       <Header/>
+      <LogOn/>
       <Footer/>
     </div>
   )
