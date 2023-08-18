@@ -1,0 +1,34 @@
+.product-container{
+  height: 1050px;
+  margin-left: 200px;
+  margin-right: 100px;
+
+}
+
+.product-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  gap: 200px 1px;
+}
+
+.product-title{
+  height: 25px;
+  font-size: 13px;
+}
+
+.product-price{
+  height: 15px;
+  font-weight: 900;
+}
+
+.product-content{
+  
+  color: gray;
+  font-size: 13px;
+  
+}
+
+.product-box{
+  width: 200px;
+}

@@ -2,7 +2,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 
-const Card = () => {
+const PlayingCard = () => {
   return(
   <div>마술카드
       <Header/>
@@ -11,4 +11,4 @@ const Card = () => {
   ) 
 }
 
-export default Card;
+export default PlayingCard;

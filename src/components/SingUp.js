@@ -1,5 +1,7 @@
 import './SingUp.css'
 
+
+
 const SingUp = () => {
   return (
     <div className='sing-up'>
