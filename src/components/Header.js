@@ -27,8 +27,7 @@ const Header = () => {
       <div className='container'>
         <div className='header flex'>
           {/* <div className='arrange'> */}
-          <div className='logo font'>
-
+          <div className='logo font' onClick={() => { navigate('/')}}>
             <div className='blance'>
               <span style={{
                 color: 'orange'  

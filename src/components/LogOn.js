@@ -21,7 +21,7 @@ const LogOn = () => {
               <button className='login-btn logon-btn-black'>로그인</button>
               <div style={{ clear: 'both' }}> </div>
               <input className='login-idbox' type='checkbox' /><span>아이디 저장</span>
-
+                  
               <hr />
               <div className='search-btnbox'>
                 <button className='search-btn' type='button'>아이디 찾기</button>
@@ -34,7 +34,7 @@ const LogOn = () => {
               <div className='login-input'>
                 <input className='login-text' type='text' placeholder='주문자명'></input><br />
                 <div style={{ margin: 15 }}></div>
-                <input className='login-text' type='password' placeholder='주문번호'></input>
+                <input className='login-text' type='text' placeholder='주문번호'></input>
               </div>
               <button className='login-btn logon-btn-white'>확인</button>
               <div style={{ clear: 'both' }}> </div>

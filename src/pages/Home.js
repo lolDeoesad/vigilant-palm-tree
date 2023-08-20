@@ -4,8 +4,6 @@ import Footer from '../components/Footer';
 import NewProInfo from "../components/NewProInfo";
 
 const Home = ({ newProduct }) => {
- 
-
   return (
     <>
       <Header />
@@ -18,7 +16,6 @@ const Home = ({ newProduct }) => {
               <NewProInfo data={data} key={i} />
             )
           })
-
           }
         </div>
       </div>

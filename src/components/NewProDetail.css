@@ -1,0 +1,12 @@
+.new-product-detail {
+   height: 600px;
+   padding: 50px;
+   display: flex;
+   align-items: center;
+   margin-left: 400px;
+}
+
+.new-product-price {
+ font-size: 30px;
+ font-weight: 900;
+}

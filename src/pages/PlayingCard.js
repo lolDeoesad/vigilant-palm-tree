@@ -1,11 +1,22 @@
+import CardProInfo from "../components/CardProInfo";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 
-const PlayingCard = () => {
+const PlayingCard = ({card}) => {
   return(
-  <div>마술카드
+  <div>
       <Header/>
+      <div className="card-product-container">
+        <div className="card-product-row">
+          {card.map((data, i) => {
+            return (
+              <CardProInfo data={data} key={i} />
+            )
+          })
+          }
+        </div>
+      </div>
       <Footer/>
   </div>   
   ) 

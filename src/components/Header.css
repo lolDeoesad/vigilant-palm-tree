@@ -37,6 +37,7 @@
   height: 120px;
   width: 25%;
   font-size: 50px;
+  cursor: pointer;
 }
 
 .logo > p {
